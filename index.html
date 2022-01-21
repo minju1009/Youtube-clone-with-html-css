@@ -14,7 +14,8 @@
     <!-- navbar -->
     <div class="navbar">
         <div class="navbar__left">
-            <img class="navbar__left__logo" src="img/YouTube-Logo.wine.svg">
+            <img class="navbar__left__logo--red" src="img/youtube_playbtn.png">
+            <img class="navbar__left__logo--white" src="img/2560px-YouTube_light_logo_(2017).svg.png">
         </div>
         <div class="navbar__right">
             <i class="fas fa-search"></i>
@@ -23,7 +24,9 @@
     </div>
 
     <!-- Youtube Video -->
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/67stn7Pu7s4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <div class="container">
+        <iframe src="https://www.youtube.com/embed/67stn7Pu7s4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
     
     <!-- title box -->
     <div class="titlebox">
@@ -38,7 +41,7 @@
         </div>
 
         <div class="titlebox__view">
-            1M vies 1moth ago
+            1M vies 1month ago
         </div>
 
         <div class="titlebox__user-response">
@@ -51,7 +54,7 @@
                 <span>0</span>
             </div>
             <div class="response">
-                <i class="fas fa-thumbs-down"></i>
+                <i class="fas fa-share"></i>
                 <span>share</span>
             </div>
             <div class="response">
@@ -64,19 +67,26 @@
             </div>
         </div>
 
+        <div class="divide"></div>
+
         <div class="titlebox__profile">
             <div class="profile__left">
-                <img class="profile__picture" src="img/sailor.png">
+                <div class="profile__picture__container">
+                    <img class="profile__picture" src="img/sailor.png">
+                </div>
                 <div class="profile__description">
                     <div class="profile__description__channel">드림코딩 by 엘리</div>
                     <div class="profile__description__subscribers">1M subscribers</div>
                 </div>
             </div>
-            <div class="profile right">
-                subscribe
+            <div class="profile__right">
+                SUBSCRIBE
             </div>
         </div>
     </div>
+
+    <div class="divide"></div>
+
 
     <!-- Contets box -->
     <div class="contents">
